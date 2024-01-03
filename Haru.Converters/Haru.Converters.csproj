@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>6.0</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Haru.Converters</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Merijn Hendriks</Authors>
+    <Company>Project Haru</Company>
+    <PackageDescription>Custom C# build-in type converters.</PackageDescription>
+    <RepositoryUrl>https://github.com/spt-haru/haru.converters</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Private="False" Include="Haru.Pools" HintPath="..\references\haru\Haru.Pools.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Memory" Version="4.5.5" />
+  </ItemGroup>
+
+</Project>

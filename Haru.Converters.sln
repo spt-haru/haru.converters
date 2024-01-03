@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haru.Converters", "Haru.Converters\Haru.Converters.csproj", "{9EA6A895-F073-45D6-89B4-3145C3BA3060}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haru.Converters.Tests", "Haru.Converters.Tests\Haru.Converters.Tests.csproj", "{B48065F4-D048-48B5-9CA6-E5062D8658A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EA6A895-F073-45D6-89B4-3145C3BA3060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EA6A895-F073-45D6-89B4-3145C3BA3060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EA6A895-F073-45D6-89B4-3145C3BA3060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EA6A895-F073-45D6-89B4-3145C3BA3060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B48065F4-D048-48B5-9CA6-E5062D8658A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B48065F4-D048-48B5-9CA6-E5062D8658A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B48065F4-D048-48B5-9CA6-E5062D8658A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B48065F4-D048-48B5-9CA6-E5062D8658A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
